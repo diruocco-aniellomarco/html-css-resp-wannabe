@@ -127,6 +127,17 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+ @media screen and (max-width: 1160px) {
+    .container {
+        width: 100%;
+    }
+}
+/* 
+
+Credo che potevo non inserire quello da 768px, lasciato 
+perché non cambiava nulla ed era parte dell'esercizio
+
+ */
 @media screen and (max-width: 768px) {
     .container {
         width: 100%;
